@@ -785,11 +785,11 @@ An interaction is the base "thing" that is sent when a user invokes a command, a
 
 ###### ApplicationCommandInteractionData
 
-| Field   | Type                                             | Description                       |
-|---------|--------------------------------------------------|-----------------------------------|
-| id      | snowflake                                        | the ID of the invoked command     |
-| name    | string                                           | the name of the invoked command   |
-| options | array of ApplicationCommandInteractionDataOption | the params + values from the user |
+| Field    | Type                                             | Description                       |
+|----------|--------------------------------------------------|-----------------------------------|
+| id       | snowflake                                        | the ID of the invoked command     |
+| name     | string                                           | the name of the invoked command   |
+| options? | array of ApplicationCommandInteractionDataOption | the params + values from the user |
 
 ###### ApplicationCommandInteractionDataOption
 
